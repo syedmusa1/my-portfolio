@@ -23,20 +23,6 @@
   list-style: none;
 }
 
-@media (max-width: 768px) {
-  .navbar {
-    padding: 15px 20px;
-  }
-
-  .nav-links {
-    gap: 1rem;
-  }
-
-  .logo {
-    font-size: 1rem;
-  }
-}
-
 .nav-links a {
   text-decoration: none;
   color: inherit;
@@ -85,4 +71,34 @@
 
 .dark .theme-toggle {
   color: white;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 15px 20px;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+    gap: 12px;
+  }
+
+  .logo {
+    width: 100%;
+
+    text-align: center;
+  }
+
+  .nav-links {
+    gap: 1rem;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+  }
+
+  .theme-toggle {
+    font-size: 1.5rem;
+  }
 }

@@ -70,6 +70,9 @@
   .project-card {
     width: 100%;
   }
+  .projects-page {
+    padding-top: 140px;
+  }
 }
 
 .dark .projects-page {

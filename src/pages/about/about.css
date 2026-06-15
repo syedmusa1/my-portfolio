@@ -56,3 +56,30 @@
   border-color: #374151;
   color: white;
 }
+
+@media (max-width: 768px) {
+  .about-page {
+    padding: 100px 20px 50px;
+  }
+
+  .about-page h1 {
+    font-size: 2.2rem;
+    text-align: center;
+  }
+
+  .about-page p {
+    text-align: center;
+  }
+
+  .about-cards {
+    flex-direction: column;
+  }
+
+  .about-card {
+    width: 100%;
+  }
+
+  .about-page {
+    padding-top: 140px;
+  }
+}
