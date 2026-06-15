@@ -59,7 +59,7 @@
 
 @media (max-width: 768px) {
   .about-page {
-    padding: 100px 20px 50px;
+    padding: 120px 20px;
   }
 
   .about-page h1 {
@@ -67,8 +67,8 @@
     text-align: center;
   }
 
-  .about-page p {
-    text-align: left;
+  .about-page {
+    padding-top: 140px;
   }
 
   .about-cards {
