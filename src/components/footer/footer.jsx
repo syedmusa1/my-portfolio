@@ -1,37 +1,39 @@
 function Footer() {
   return (
     <footer className="footer">
-      <h3>Syed Musa</h3>
+      <div className="footer-content">
+        <h3>Syed Musa</h3>
 
-      <p>
-        Frontend Developer | Aspiring Full-Stack Developer
-      </p>
+        <p className="footer-tagline">
+          Frontend Developer | Aspiring Full-Stack Developer
+        </p>
 
-      <div className="social-links">
-        <a
-          href="https://github.com/syedmusa1"
-          target="_blank"
-          rel="noreferrer"
-        >
-          GitHub
-        </a>
+        <div className="social-links">
+          <a
+            href="https://github.com/syedmusa1"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
 
-        <a
-          href="https://www.linkedin.com/in/syed-musa1"
-          target="_blank"
-          rel="noreferrer"
-        >
-          LinkedIn
-        </a>
+          <a
+            href="https://www.linkedin.com/in/syed-musa1"
+            target="_blank"
+            rel="noreferrer"
+          >
+            LinkedIn
+          </a>
 
-        <a href="mailto:mail.syedmusa@gmail.com">
-          Email
-        </a>
+          <a href="mailto:mail.syedmusa@gmail.com">
+            Email
+          </a>
+        </div>
+
+        <p className="copyright">
+          © 2025 Syed Musa
+        </p>
       </div>
-
-      <p className="copyright">
-        © 2025 Syed Musa. All rights reserved.
-      </p>
     </footer>
   );
 }

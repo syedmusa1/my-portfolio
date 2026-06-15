@@ -68,18 +68,21 @@
   }
 
   .about-page p {
-    text-align: center;
+    text-align: left;
   }
 
   .about-cards {
     flex-direction: column;
+    width: 100%;
   }
 
   .about-card {
     width: 100%;
+    min-width: auto;
+    padding: 1.5rem;
   }
 
   .about-page {
     padding-top: 140px;
   }
-}
+} 
