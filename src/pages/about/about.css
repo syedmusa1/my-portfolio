@@ -1,0 +1,58 @@
+.about-page {
+  padding: 120px 80px;
+}
+
+.about-page h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.about-page p {
+  max-width: 800px;
+  line-height: 1.8;
+  margin-bottom: 3rem;
+}
+
+.about-cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.about-card {
+  flex: 1;
+  min-width: 280px;
+  padding: 2rem;
+  border: 1px solid #dbeafe;
+  border-radius: 16px;
+}
+
+.about-card h2 {
+  margin-bottom: 1rem;
+}
+
+.about-card ul {
+  padding-left: 1.2rem;
+}
+
+.about-card li {
+  margin-bottom: 0.8rem;
+}
+
+.dark .about-page {
+  background: #111827;
+}
+
+.dark .about-page h1 {
+  color: white;
+}
+
+.dark .about-page p {
+  color: #d1d5db;
+}
+
+.dark .about-card {
+  background: #1f2937;
+  border-color: #374151;
+  color: white;
+}
